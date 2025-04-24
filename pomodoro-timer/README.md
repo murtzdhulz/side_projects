@@ -1,30 +1,89 @@
 # Pomodoro Timer
 
-This is a simple website built in react to allow users to follow the pomodoro technique for doing work while making sure they take the necessary breaks.
+A beautiful and functional Pomodoro Timer web application built with React, TypeScript, and Material-UI. Features a tomato-themed design with customizable work and break durations.
+
+## Features
+
+- 🍅 Tomato-themed design
+- ⏱️ Customizable work and break durations
+- 🔄 Auto-switching between work and break modes
+- 📊 Session tracking
+- 🎨 Beautiful Material-UI interface
+- 🌙 Dark mode support
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd pomodoro-timer
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App (Note: this is a one-way operation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Structure
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+pomodoro-timer/
+├── public/              # Static files
+├── src/                 # Source files
+│   ├── components/      # React components
+│   │   └── PomodoroTimer.tsx  # Main timer component
+│   ├── App.tsx          # Main application component
+│   └── index.tsx        # Application entry point
+├── package.json         # Project dependencies
+└── tsconfig.json        # TypeScript configuration
+```
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 18
+- TypeScript
+- Material-UI
+- Emotion (for styling)
+- Create React App
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by the Pomodoro Technique
+- Built with Create React App
+- Uses Material-UI for beautiful components
