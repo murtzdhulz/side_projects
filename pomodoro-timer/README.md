@@ -17,10 +17,10 @@ A beautiful and functional Pomodoro Timer web application built with React, Type
 ![Pomodoro Timer in Work Mode](./assets/work_time.png)
 
 ### Short Break Mode
-![Pomodoro Timer in Short Break Mode](./assets/short_break_.png)
+![Pomodoro Timer in Short Break Mode](./assets/short_break.png)
 
 ### Long Break Mode
-![Pomodoro Timer in Long Break Mode](./assets/long_break_.png)
+![Pomodoro Timer in Long Break Mode](./assets/long_break.png)
 
 ## Prerequisites
 
