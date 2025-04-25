@@ -11,6 +11,17 @@ A beautiful and functional Pomodoro Timer web application built with React, Type
 - 🎨 Beautiful Material-UI interface
 - 🌙 Dark mode support
 
+## Screenshots
+
+### Work Mode
+![Pomodoro Timer in Work Mode](./assets/work_time.png)
+
+### Short Break Mode
+![Pomodoro Timer in Short Break Mode](./assets/short_break_.png)
+
+### Long Break Mode
+![Pomodoro Timer in Long Break Mode](./assets/long_break_.png)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -52,6 +63,7 @@ In the project directory, you can run:
 
 ```
 pomodoro-timer/
+├── assets/              # Images and screenshots
 ├── public/              # Static files
 ├── src/                 # Source files
 │   ├── components/      # React components
@@ -77,10 +89,6 @@ pomodoro-timer/
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
